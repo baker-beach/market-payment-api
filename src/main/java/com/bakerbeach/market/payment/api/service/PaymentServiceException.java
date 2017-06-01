@@ -1,9 +1,9 @@
 package com.bakerbeach.market.payment.api.service;
 
+import com.bakerbeach.market.commons.Message;
 import com.bakerbeach.market.commons.MessageImpl;
+import com.bakerbeach.market.commons.Messages;
 import com.bakerbeach.market.commons.ServiceException;
-import com.bakerbeach.market.core.api.model.Message;
-import com.bakerbeach.market.core.api.model.Messages;
 
 @SuppressWarnings("serial")
 public class PaymentServiceException extends ServiceException {

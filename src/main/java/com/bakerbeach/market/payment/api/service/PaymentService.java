@@ -5,8 +5,8 @@ import java.util.Map;
 
 import com.bakerbeach.market.core.api.model.Cart;
 import com.bakerbeach.market.core.api.model.Customer;
-import com.bakerbeach.market.core.api.model.Order;
 import com.bakerbeach.market.core.api.model.ShopContext;
+import com.bakerbeach.market.order.api.model.Order;
 import com.bakerbeach.market.payment.api.model.PaymentInfo;
 
 public interface PaymentService {
