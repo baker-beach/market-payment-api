@@ -1,8 +1,6 @@
 package com.bakerbeach.market.payment.api.service;
 
 import com.bakerbeach.market.commons.Message;
-import com.bakerbeach.market.commons.MessageImpl;
-import com.bakerbeach.market.commons.Messages;
 import com.bakerbeach.market.commons.ServiceException;
 
 @SuppressWarnings("serial")
@@ -17,20 +15,6 @@ public class PaymentServiceException extends ServiceException {
 		messages.add(message);
 	}
 
-	/**
-	 * @return the messages
-	 */
-	public Messages getMessages() {
-		return messages;
-	}
-
-	/**
-	 * @param messages the messages to set
-	 */
-	public void setMessages(Messages messages) {
-		this.messages = messages;
-	}
-
 	public static class PaymentRedirectException extends PaymentServiceException{
 		
 		private String url;
@@ -40,7 +24,8 @@ public class PaymentServiceException extends ServiceException {
 		}
 		
 		public PaymentRedirectException(String url) {
-			super(new MessageImpl(""));
+			super();
+			//super(new MessageImpl(""));
 			this.url = url;
 		}
 
