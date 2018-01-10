@@ -10,24 +10,24 @@
 	<artifactId>market-payment-api</artifactId>
 	<name>market-payment-api</name>
 	<packaging>jar</packaging>
-	<version>3.0.4</version>
+	<version>3.1.0</version>
 	<properties>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>com.bakerbeach.market</groupId>
 			<artifactId>market-core-model</artifactId>
-			<version>[3.0.0,3.1.0)</version>
+			<version>[3.1.0,3.2.0)</version>
 		</dependency>
 		<dependency>
 			<groupId>com.bakerbeach.market</groupId>
 			<artifactId>market-order-api</artifactId>
-			<version>[3.0.0,3.1.0)</version>
+			<version>[3.1.0,3.2.0)</version>
 		</dependency>
 		<dependency>
 			<groupId>com.bakerbeach.market</groupId>
 			<artifactId>market-commons</artifactId>
-			<version>[3.0.0,4.0.0)</version>
+			<version>[3.1.0,3.2.0)</version>
 		</dependency>
 	</dependencies>
 </project>
